@@ -1,8 +1,13 @@
 import React from 'react';
-import Home from './src/screens/Home';
+import { SafeAreaView } from 'react-native';
+import TareaScreen from './src/screens/TareaScreen';
 
 const App = () => {
-  return <Home />;
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <TareaScreen />
+    </SafeAreaView>
+  );
 };
 
 export default App;
